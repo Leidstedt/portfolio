@@ -1,0 +1,308 @@
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+/* ===============TEXT STYLING ============ */
+h1 {
+    margin: 0px;
+    font: Bold 40px Montserrat;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+h2 {
+    font: Bold 24px Montserrat;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+h3 {
+    font: Bold 13px Roboto;
+    letter-spacing: 0.52px;
+    color: #FFFFFF;
+    opacity: 1;
+    text-transform: uppercase;
+}
+
+h4 {
+    background-color: #FA382F;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: left;
+    font: Bold 22px Montserrat;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 0px 0px 43px 0px;
+    padding: 2px 5px;
+}
+
+h5 {
+    font: Bold 17px Roboto;
+    letter-spacing: 0.52px;
+    color: #FA382F;
+    opacity: 1;
+    text-transform: uppercase;
+    margin: 5px 0px 5px 0px; 
+    display: inline-block;
+}
+
+h6 {
+    font: Bold 21px Montserrat;
+    letter-spacing: 0px;
+    color: #FA382F;
+    opacity: 1;
+    text-transform: uppercase;  
+}
+
+p {
+    text-align: left;
+    font: 17px Montserrat;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin: 0px;
+    text-decoration: none;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0px 0px 5px 0px;
+    padding: 0px;
+    text-align: center;
+    font: 17px Roboto;
+    letter-spacing: 0;
+    color: #000000;    
+}
+
+/* ===============HEADER STYLING ============ */
+
+.header-container {
+    background-image: url("assets/background-3045402_1920.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding: 105px 36px 0px 36px;
+    display: flex; 
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.white-icon-container {
+    display: flex;
+  }
+  
+  .icon {
+    border: 2px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-left: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .icon img {
+    height: 15px;
+    width: 15px;
+    padding: 8px;
+  }
+
+.header-text-box {
+    color: white;
+    margin: 0px;
+    align-self: flex-start;
+    text-align: left;
+    }
+
+
+.profile-picture {
+    background-image: url(assets/IMG_0849.JPG);
+    width: 162px;
+    height: 162px;
+    border: 3px solid white;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 80%;
+    background-color: white;
+    opacity: 1;
+    margin-bottom: -30px;
+}
+
+/* =============== MAIN: SECTION STYLING ============ */
+/* portfolio container => Small Card */
+
+.protfolio-container {
+    margin: 0px;
+    display: block;
+}
+
+.portfolio-section-grey {
+    background: #F4F4F4 0% 0% no-repeat padding-box;
+    opacity: 1;
+    margin: 0px;
+    padding: 58px 36px 36px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-section {
+    margin: 0px;
+    padding: 58px 36px 36px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* SMALL CARD: TO GROUP PICTURES AND TEXT WITHIN THE SECTION */
+
+.small-card {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    width: 303px;
+    margin: 0px 35px 35px 35px;
+
+}
+
+.card-link {
+    text-decoration: none;
+    cursor: pointer;
+    color: black;
+}
+
+.tag-container{
+display: flex;
+flex-direction: row;
+align-items: baseline;
+margin-bottom: 20px;
+}
+
+.tag {
+    border: 1px solid #FDDFE7;
+    opacity: 1;
+    background-color: #FDDFE7;
+    margin-right: 5px;
+    font-size: 13px;
+}
+
+
+.bold-card-text-red {
+    font: Bold 17px Roboto;
+    letter-spacing: 0.52px;
+    color: #FA382F;
+    opacity: 1;
+    text-transform: uppercase;
+    margin: 5px 0px 5px 0px; 
+    display: inline-block;
+}
+
+.bold-card-text {
+    font: Bold 17px Roboto;
+    letter-spacing: 0.52px;
+    color: black;
+    opacity: 1;
+    margin: 5px 0px 5px 0px; 
+    display: inline-block;
+}
+
+
+.small-card img {
+    width: 303px;
+    height: 179px;
+    margin-bottom: 10px;
+    opacity: 0.38;
+}
+
+.skill-box {
+    text-align: center;
+    margin: 0px 15px 0px 15px;
+    padding: 10px;
+    }
+
+footer {
+    background-color: #072BCE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 100px;
+    
+}
+
+
+@media (min-width:1050px) {
+
+h1 {
+    font-size: 60px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+.icon {
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  
+.icon img {
+    height: 39px;
+    width: 39px;
+    padding: 15px;
+  }
+
+.profile-picture {
+    width: 250px;
+    height: 250px;
+}
+
+.header-container {
+    padding: 80px 300px 0px 300px;
+}
+
+.portfolio-section-grey {
+    padding: 58px 300px 36px 300px;
+}
+
+.portfolio-section {
+    padding: 58px 300px 36px 300px;
+}
+
+
+/* Big card groups the small cards within the section @media (min-width:750px) */
+.big-card {
+    display: flex;
+    flex-direction: row;
+    align-items: right;
+    width: 620px;
+    padding: 0px 400px 0px 400px;
+    margin-bottom: 35px;
+    justify-content: space-around;
+}
+
+/* Skill container allign the lists @media (min-width:750px) */
+
+.skill-container {
+    display: flex;
+    flex-direction: row;    
+}
+
+
+}
